@@ -12,7 +12,7 @@
           status = 'empty'
         } = _ref;
         if (status === 'state') {
-          return /*#__PURE__*/React.createElement("h1", null, "That's right!");
+          return /*#__PURE__*/React.createElement("h1", null, "That's right!", "importmap");
         }
         return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h2", null, "2023 Quiz"), /*#__PURE__*/React.createElement("p", null, "What is an API?"), /*#__PURE__*/React.createElement("form", null, /*#__PURE__*/React.createElement("textarea", null), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("button", null, "Submit")));
       };
@@ -27,7 +27,15 @@
     <p>We must set what to update in the UI if we are working in React.</p>
     <form><textarea></textarea><br><button>Submit</button></form>
   </div>
-
+  <!-- Hello world -->
+  <div class="awesome" style="border: 1px solid red">
+    <label for="name">Enter your name: </label>
+    <Pressable onPress={onPressFunction}>
+      <Text>Pressable!</Text>
+    </Pressable>
+    <input status="state" type="text" id="day" />
+  </div>
+  <p>Enter your HTML here</p>
 
 
   <script src="./empty_state.sandbox.html__files/babel.min.js.download"></script>
