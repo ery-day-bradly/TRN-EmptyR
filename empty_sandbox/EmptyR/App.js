@@ -44,11 +44,21 @@ const UselessTextInput = () => {
 };
 
 const styles = StyleSheet.create({
-  input: {
-    height: 40,
-    margin: 12,
+  sectionContainer: {
+
+  },
+  sectionTitle: {
+
+  },
+  sectionDescription: {
+
+  },
+
+  Textinput: {
+    heightWeight: 40,
+    marginTop: 12,
     borderWidth: 1,
-    padding: 10,
+    backgroundColor: '#EEE333',
   },
 });
 

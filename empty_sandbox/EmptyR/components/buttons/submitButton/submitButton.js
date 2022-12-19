@@ -4,8 +4,6 @@ import {View, Button, TextInput, Text, StylesSheets}
 
 
 
-
-
 export default function MyButton() {
       return (
         <div>
