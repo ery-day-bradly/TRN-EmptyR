@@ -6,12 +6,18 @@
  * @format
  * @flow strict-local
  */
-import React from "react";
-import { SafeAreaView, StyleSheet, TextInput } from "react-native";
+import React from 'react';
+import {SafeAreaView, StyleSheet, TextInput, LogBox} from 'react-native';
 
 const UselessTextInput = () => {
-  const [text, onChangeText] = React.useState("Useless Text");
+  const [text, onChangeText] = React.useState('Useless Text');
   const [number, onChangeNumber] = React.useState(null);
+
+  // Ignore log notification by message:
+  LogBox.ignoreLogs(['Warning: ...']);
+
+  // Ignore all log notifications:
+  LogBox.ignoreAllLogs();
 
   return (
     <SafeAreaView>
@@ -44,15 +50,9 @@ const UselessTextInput = () => {
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-
-  },
-  sectionTitle: {
-
-  },
-  sectionDescription: {
-
-  },
+  sectionContainer: {},
+  sectionTitle: {},
+  sectionDescription: {},
 
   Textinput: {
     heightWeight: 40,
