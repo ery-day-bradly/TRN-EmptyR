@@ -4,6 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="stylesheet" type="text/css" href="new-style.css">
   <script
     type="module">import React, { StrictMode } from 'react';
       import { createRoot } from 'react-dom/client';
@@ -12,7 +13,7 @@
           status = 'empty'
         } = _ref;
         if (status === 'state') {
-          return /*#__PURE__*/React.createElement("h1", null, "That's right!");
+          return /*#__PURE__*/React.createElement("h1", null, "That's right!", "importmap");
         }
         return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h2", null, "2023 Quiz"), /*#__PURE__*/React.createElement("p", null, "What is an API?"), /*#__PURE__*/React.createElement("form", null, /*#__PURE__*/React.createElement("textarea", null), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("button", null, "Submit")));
       };
@@ -27,9 +28,17 @@
     <p>We must set what to update in the UI if we are working in React.</p>
     <form><textarea></textarea><br><button>Submit</button></form>
   </div>
+  <!-- Hello world -->
+  <div class="awesome" style="border: 2px solid red">
+    <label for="name">Enter your name: </label>
+    <Pressable onPress={onPressFunction}>
+      <Text>Pressable!</Text>
+    </Pressable>
+    <input status="state" type="text" id="day" />
+  </div>
+  <p>This is amazing.</p>
 
-
-
+  <script type="text/javascript" src="script.js"></script>
   <script src="./empty_state.sandbox.html__files/babel.min.js.download"></script>
   <script type="importmap">
 {
@@ -77,55 +86,6 @@
       </StrictMode>
     );
   </script>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: sans-serif;
-      margin: 20px;
-      padding: 3;
-    }
-
-    h1 {
-      margin-top: 60;
-      font-size: 22px;
-    }
-
-    h2 {
-      margin-top: 0;
-      font-size: 30px;
-    }
-
-    h3 {
-      margin-top: 0;
-      font-size: 18px;
-    }
-
-    h4 {
-      margin-top: 0;
-      font-size: 16px;
-    }
-
-    h5 {
-      margin-top: 0;
-      font-size: 14px;
-    }
-
-    h6 {
-      margin-top: 0;
-      font-size: 12px;
-    }
-
-    code {
-      font-size: 1.2em;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-  </style>
-</body><!-- This setup is not suitable for production. --><!-- Only use it in development! -->
+</body>
 
 </html>
