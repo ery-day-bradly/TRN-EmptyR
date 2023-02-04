@@ -3,6 +3,7 @@ This is to create form and regular order as part of training.
 
 ## Monday 
 
+
 ### Regular 
 
 - [Restaurant Regular Orders](#contents)
@@ -15,3 +16,11 @@ This is to create form and regular order as part of training.
     - [Restaurant](#restaurant-notes)
   - [FAQ & Troubleshooting](#faq--troubleshooting)
     - [I need more help!](#i-need-more-help)
+
+
+### Wednesday(`Wednesday-Let-You`) QAT 
+ - laoder
+ - rover-discovery
+ - if  
+
+
