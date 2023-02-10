@@ -1,7 +1,21 @@
-# TRAINING MATERIAL
-This is to create form and regular order as part of training. 
 
-## Monday 
+# SYSTEM AND METHOD 
+`OF FACILITATING DELIVERY OF GOODS TO A CUSTOMER`
+
+##Table of Contents
+- [main] (#contents)
+    - [dev-branch](#shortcuts)
+- [Features] (#features)
+    - [Monday] (#monday-issues)
+    - [Wednesday] (#wednesday-issues)
+    - [Friday] (#friday-issues)
+- [Start](#start-startup)
+    - [API Content] (#easily-manage-the-contents)
+    - [Developer notes] (#developer-notes)
+- [FAQ & Troubleshooting] (#faq--troubleshooting)
+    - [I need more help!] (#i-need-more-help)
+
+
 
 
 ### Regular 
