@@ -33,7 +33,7 @@
 
 
 ### Wednesday(`Wednesday-Let-You`) QAT 
- - laoder
+ - loader
  - rover-discovery
  - if  
 
